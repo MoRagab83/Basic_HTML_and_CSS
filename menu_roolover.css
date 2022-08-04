@@ -1,0 +1,74 @@
+body {
+    background:#184352;
+
+}
+
+wrao {
+    top:0;
+    left:0;
+    hight: auto;
+    width:100%;
+
+}
+
+.menu-container {
+    top:0;
+    left:0;
+    /.To the top edge of the screen*/
+    position: absolute;
+    width:100%;
+    background-color: #184352;
+
+}
+
+.menu {
+    font:bold 12px/10px sans-serif;
+    text-align:center;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.menu li {
+    color: #B3B3B3;
+    DISPLAY: INLINE-BLOCK;
+    MARGIN-RIGHT: -2PX;
+    POSITION: RELATIVE;
+    PADDING: 12PX 40PX;
+    BORDER: 1PX SOLID #9D9FA2;
+    border-radius: 1.5px;
+    background-color: #387593;
+    cursor: pointer;
+
+}
+
+.menu li: hover {
+    background-color: #5EAFDF;
+    color: #fff;
+
+}
+
+.menu li:hover ul {
+    display: block;
+    cpacity: 1;
+
+    /*while hovered drop down-menu appeara
+    this also avoide a block-level bug&*/
+
+    visibility: visible;
+}
+
+.submenu li {
+    background-color: #387593;
+    display: block;
+    color: #B3B3B3;
+
+}
+
+.submenu li:hover {
+    color: #fff;
+    background-color: #5EAFDF;
+    
+}
